@@ -37,9 +37,7 @@ public class Type implements Serializable {
     @Override
     public String toString() {
         return "name: " + getName()
-               + ", pattern: " + getPattern();
+                + ", pattern: " + getPattern();
     }
 
 }
-
-
